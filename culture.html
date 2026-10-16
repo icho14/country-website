@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Russian food, traditions and culture.">
+    <title>Culture | Discover Russia</title>
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-container">
+
+            <a class="logo" href="index.html">Discover Russia</a>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="culture.html" aria-current="page">Culture</a></li>
+                    <li><a href="credits.html">Credits</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <section class="page-intro">
+            <div class="container">
+                <h1>Russian Culture</h1>
+                <p>
+                    Russia has many interesting traditions,
+                    foods and celebrations.
+                    Here are a few things that make
+                    Russian culture special.
+                </p>
+            </div>
+        </section>
+
+        <!-- Traditional Food -->
+        <section class="container section-spacing">
+
+            <h2>Traditional Russian Food</h2>
+
+            <p>
+                Russian food is an important part of the culture.
+                Some dishes have been popular for many years
+                and are still enjoyed today.
+            </p>
+
+            <div class="card-grid">
+
+                <article class="card">
+                    <img src="images/pelmeni.webp"
+                         alt="Russian pelmeni dumplings"
+                         loading="lazy">
+
+                    <h3>Pelmeni</h3>
+
+                    <p>
+                        Pelmeni are small dumplings filled
+                        with meat. They are usually boiled
+                        and served with sour cream.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img src="images/borscht.webp"
+                         alt="A bowl of borscht soup"
+                         loading="lazy">
+
+                    <h3>Borscht</h3>
+
+                    <p>
+                        Borscht is a soup made with beetroot
+                        and vegetables. It is often served
+                        with sour cream and bread.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img src="images/blini.webp"
+                         alt="Traditional Russian blini"
+                         loading="lazy">
+
+                    <h3>Blini</h3>
+
+                    <p>
+                        Blini are thin pancakes that can be
+                        eaten with different toppings,
+                        such as jam, honey or sour cream.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Traditions -->
+        <section class="container section-spacing">
+
+            <h2>Russian Traditions</h2>
+
+            <p>
+                Russia celebrates many holidays throughout
+                the year. New Year's Eve is one of the
+                biggest celebrations, when families
+                gather together and exchange gifts.
+            </p>
+
+            <p>
+                Another traditional celebration is
+                Maslenitsa, which marks the end of winter.
+                People celebrate by eating blini
+                and taking part in outdoor activities.
+            </p>
+
+            <blockquote>
+                <p>
+                    "Better to see once than hear a hundred times."
+                </p>
+                <footer>— Traditional Russian proverb</footer>
+            </blockquote>
+
+        </section>
+
+        <!-- Video -->
+        <section class="container section-spacing">
+
+            <h2>Experience Russia</h2>
+
+            <p>
+                Watch a short video showing Russian
+                landscapes and culture.
+            </p>
+
+            <video controls preload="metadata"
+                   poster="images/baikal.webp">
+
+                <source src="media/explore-russia.mp4"
+                        type="video/mp4">
+
+                Your browser does not support the video tag.
+            </video>
+
+        </section>
+
+        <!-- Contact Form -->
+        <section class="container section-spacing">
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Have a question about Russia?
+                Fill out the form below.
+            </p>
+
+            <p id="form-note">
+                This is a practice form for the website.
+                Messages are not sent.
+            </p>
+
+            <form class="contact-form" aria-describedby="form-note">
+
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text"
+                           id="name"
+                           name="name"
+                           autocomplete="name"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           autocomplete="email"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              required></textarea>
+                </div>
+
+                <button type="button">Send Message (Demo)</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Discover Russia</p>
+        <p>Created for FWDP 1000</p>
+        <p><a href="credits.html">Credits</a></p>
+    </footer>
+
+</body>
+</html>
